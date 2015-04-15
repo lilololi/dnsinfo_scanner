@@ -1,0 +1,67 @@
+Usage: dnsinfo.py {target}.com  or  dnsinfo.py -f domainfile.txt
+
+Options:
+  -h, --help            show this help message and exit
+  -f DOMAINFILE, --file=DOMAINFILE
+                        File for domain. Default is domainfile.txt
+  -t THREAD, --thread=THREAD
+                        Number of threads.Default is 10
+
+dnsinfo.py Result:
+
+sina.com
+Dns Address:
+['12.130.132.30']
+DNS Mail Exchange:
+baidu.com
+Dns Address:
+['220.181.57.217', '123.125.114.144', '180.149.132.47']
+
+MX preference =10  mail exchanger =freemx2.sinamail.sina.com.cn.
+DNS Mail Exchange:
+
+MX preference =10  mail exchanger =mx.n.shifen.com.
+MX preference =20  mail exchanger =mx50.baidu.com.
+MX preference =20  mail exchanger =mx1.baidu.com.MX preference =5  mail exchanger =freemx1.sinamail.sina.com.cn.
+MX preference =10  mail exchanger =freemx3.sinamail.sina.com.cn.
+MX preference =20  mail exchanger =jpmx.baidu.com.
+
+NS:
+
+
+NS:
+ns2.baidu.com.
+dns.baidu.com.
+ns7.baidu.com.
+ns3.baidu.com.
+ns4.baidu.com.
+
+CNAME:
+www.a.shifen.com.
+ns4.sina.com.cn.
+ns3.sina.com.
+ns4.sina.com.
+weibo.com
+Dns Address:
+['123.125.104.197']
+DNS Mail Exchange:
+
+MX preference =10  mail exchanger =mx.weibo.com.
+
+NS:
+ns4.sina.com.cn.
+ns3.sina.com.cn.
+ns1.sina.com.cn.
+ns1.sina.com.
+ns2.sina.com.
+ns2.sina.com.cn.
+
+CNAME:
+us.sina.com.cn.
+ns1.sina.com.cn.
+ns3.sina.com.cn.
+ns3.sina.com.
+ns2.sina.com.cn.
+ns4.sina.com.
+
+CNAME:
