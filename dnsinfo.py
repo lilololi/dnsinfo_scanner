@@ -158,7 +158,7 @@ class dnsinfo:
 
 
 if __name__ == '__main__':
-    parser=optparse.OptionParser('usage: dnsinfo.py {target}.com  or  dnsinfo.py -f domainfile.txt')
+    parser=optparse.OptionParser('usage: dnsinfo.py {target}.com  or  dnsinfo.py -f domainfile.txt \n1ovelli\n')
     parser.add_option('-f','--file',dest='domainfile',default='domainfile.txt',type='string',help='File for domain. Default is domainfile.txt')
     parser.add_option('-t','--thread',dest='thread',default='10',type='int',help='Number of threads.Default is 10')
     (options,args)=parser.parse_args()
