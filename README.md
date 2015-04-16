@@ -1,8 +1,7 @@
 # dnsinfo_scanner
 
-Scanner for Information collection
+Scanner for DNS Information collection
 
-Address ; Mail exchange ; NS ; CNAME ;
 You can use it instead of nslook
 
 Usage: 
